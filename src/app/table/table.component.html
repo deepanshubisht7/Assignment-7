@@ -1,0 +1,19 @@
+<table border=1>
+  <thead>
+      <tr>
+          <th>empId</th>
+          <th>empName</th>
+          <th>empSal</th>
+          <th>empDep</th>
+          <th>empjoiningdate</th>
+      </tr>
+  </thead>
+  <tr *ngFor="let n of names">
+      <td>{{ n.empId }}</td>
+      <td>{{ n.empName }}</td>
+      <td>{{ n.empSal }}</td>
+      <td>{{ n.empDep }}</td>
+      <td>{{ n.empjoiningdate }}</td>
+
+  </tr>
+</table>
